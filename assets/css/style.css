@@ -1,0 +1,73 @@
+.container {
+	width: 0 auto;
+	height: 0 auto;
+	border: 1px solid white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.wrap {
+	background-color: white;
+	opacity: 0.6;
+}
+
+.jumbotron {
+	background-image: url(../images/wonderwoman.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 42%;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	height: 250px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.question1 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+
+.question2 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+.question3 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+.question4 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+.question5 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+.timer {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+.scoreBox {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+button, input, select, textarea  {
+	background-color: white;
+	color: black;
+	
+}
+
+
+
+h3 {
+	color: white;
+}

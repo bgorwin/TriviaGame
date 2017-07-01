@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="./assets/css/style.css"><script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+<body background="assets/images/background.png">
+	<div class="container">
+
+		<div class="jumbotron">
+			
+		</div>
+	<div class="wrap">
+		<div class="timer">
+			<h1>Wonder Woman Trivia Game!</h1>
+			<button id="startB" value="start">Start</button><h3>Time Remaining: <span id="seconds"></span> Seconds</h3>
+		</div>
+
+		<div class="question1"> 
+			<h3>Wonder Woman made her first appearance in what comic book?</h3>
+				<button class="inCorrect active">Wonder Woman #1</button>
+				<button class="inCorrect active">Action Comics #27</button>
+				<button class="correct active">All Star Comics #8</button> <!-- Correct -->
+		</div>
+
+		<div class="question2">
+			<h3>Which of Wonder Woman's accessories was forged from the magic girdle of Aphrodite?</h3>
+			<button class="correct active">Her Lasso</button> <!-- Correct -->
+			<button class="inCorrect active">Her Tiara</button>
+			<button class="inCorrect active">Her Bracelets</button>
+		</div>
+
+		<div class="question3">
+			<h3>Who played Wonder Woman in the 1970s TV show?</h3>
+			<button class="inCorrect">Linsay Wagner</button>
+			<button class="correct">Lynda Carter</button> <!-- Correct -->
+			<button class="inCorrect">Farrah Fawcett</button>
+		</div>
+
+		<div class="question4">
+			<h3> Which of Wonder Woman's accessories allows her to breathe in outer space?</h3>
+			<button class="correct">Her Earrings</button> <!-- Correct -->
+			<button class="inCorrect">Her Bracelets</button>
+			<button class="inCorrect">Her Tiara</button>
+		</div>
+
+		<div class="question5">
+			<h3>Who was the first costumed villain Wonder Woman ever faced?</h3>
+			<button class="inCorrect">Cheetah</button>
+			<button class="correct">Dr. Poison</button>
+			<button class="inCorrect">Giganta</button>
+		</div>
+
+		<div class="scoreBox">
+			<h3>Correct: <span id="correctCount"></span></h3>
+			<h3>Incorrect: <span id="inCorrectCount"></span></h3>
+		</div>
+	</div>
+
+
+	</div>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
